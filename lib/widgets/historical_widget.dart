@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: camel_case_types
 class historical_widget extends StatelessWidget {
   const historical_widget({
     super.key,
