@@ -44,11 +44,11 @@ class _LoadingState extends State<Loading> {
             TextButton.icon(
               onPressed: () {},
               icon: const Icon(
-                Icons.new_releases_outlined,
+                Icons.build,
                 color: Colors.black,
               ),
               label: const Text(
-                'Nfinic',
+                'StarknetCongo',
                 style: TextStyle(color: Colors.black),
               ),
             ),

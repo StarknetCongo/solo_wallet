@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:solo_wallet/constants/style.dart';
-import 'package:solo_wallet/widgets/CustomFloatingbutton.dart';
 import 'package:solo_wallet/widgets/historical_widget.dart';
 
 // ignore: camel_case_types
@@ -46,10 +45,6 @@ class _Home_PageState extends State<Home_Page> {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
-              // Text(
-              //   'Mainnet',
-              //   style: TitreStyle,
-              // ),
               Padding(
                 padding: const EdgeInsets.all(4.0),
                 child: Container(
@@ -171,8 +166,14 @@ class _Home_PageState extends State<Home_Page> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text('Your latest transanctions'),
-                            Text('View all'),
+                            Padding(
+                              padding: EdgeInsets.all(8.0),
+                              child: Text('Your latest transanctions'),
+                            ),
+                            Padding(
+                              padding: EdgeInsets.all(8.0),
+                              child: Text('View all'),
+                            ),
                           ],
                         ),
                         historical_widget(
