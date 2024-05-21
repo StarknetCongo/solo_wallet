@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+
 import 'package:solo_wallet/screens/loading_page.dart';
-import 'package:solo_wallet/screens/navigationButton_bar.dart';
 
 void main() {
   // SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
