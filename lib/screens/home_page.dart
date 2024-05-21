@@ -40,7 +40,7 @@ class _Home_PageState extends State<Home_Page> {
       ),
       // floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       // floatingActionButton: const CustomFloatingbutton(),
-      //   appBar: AppBar(),
+
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
