@@ -7,8 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import '../lib/views/start/solo_wallet.dart';
+import 'package:solo_wallet/views/start/solo_wallet.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

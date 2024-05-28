@@ -1,4 +1,5 @@
 import 'package:flutter/foundation.dart' show immutable;
+import 'package:solo_wallet/services/dio/interceptors.dart';
 
 abstract class AppState {}
 
