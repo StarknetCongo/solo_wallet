@@ -1,8 +1,9 @@
 import 'dart:convert';
-import 'package:cups/controllers/bloc/state.dart';
-import 'package:cups/services/dio/interceptors.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:solo_wallet/controllers/bloc/state.dart';
+import 'package:solo_wallet/services/dio/interceptors.dart';
 
 hundleError({required Exception e, required Emitter<AppState> emit}) {
   bool isCobizCustomException = e is ValidationInternalServerErrorException ||
