@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:solo_wallet/screens/create_account.dart';
 import 'package:solo_wallet/screens/create_pin.dart';
 import 'package:solo_wallet/screens/loading_page.dart';
+import 'package:solo_wallet/screens/main_page.dart';
 
 void main() {
   // SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Solo Wallet',
       theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Google'),
-      home: const Create_account(),
+      home:  Main_page(),
     );
   }
 }
