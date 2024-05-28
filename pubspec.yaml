@@ -18,6 +18,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   provider: ^6.1.2
   flutter_bloc: ^8.1.5
+  shared_preferences: ^2.2.3
   bloc: ^8.1.4
   dio: ^5.4.3+1
   iconsax: ^0.0.8
