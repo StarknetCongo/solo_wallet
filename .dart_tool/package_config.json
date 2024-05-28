@@ -116,6 +116,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "flutter_localizations",
+      "rootUri": "file:///Users/baruka99/flutter/packages/flutter_localizations",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/baruka99/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -154,6 +160,12 @@
     {
       "name": "iconsax",
       "rootUri": "file:///Users/baruka99/.pub-cache/hosted/pub.dev/iconsax-0.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/baruka99/.pub-cache/hosted/pub.dev/intl-0.18.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -374,7 +386,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-05-28T17:34:34.050557Z",
+  "generated": "2024-05-28T17:40:03.568317Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }
