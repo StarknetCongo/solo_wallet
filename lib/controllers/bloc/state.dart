@@ -1,4 +1,3 @@
-import 'package:cups/services/dio/interceptors.dart';
 import 'package:flutter/foundation.dart' show immutable;
 
 abstract class AppState {}
@@ -25,12 +24,3 @@ class LOADING implements AppState {
 
 @immutable
 class INITIALSTATE implements AppState {}
-
-@immutable
-class RecordOn implements AppState {}
-
-@immutable
-class RecordStopped implements AppState {}
-
-@immutable
-class RecordResumed implements AppState {}
