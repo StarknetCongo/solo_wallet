@@ -52,7 +52,30 @@ class _LoadingState extends State<Loading> {
                 style: TextStyle(color: Colors.black),
               ),
             ),
-           
+ 
+            // Row(
+            //   mainAxisAlignment: MainAxisAlignment.center,
+            //   children: [
+            //     CircleAvatar(
+            //       backgroundColor: Colors.white,
+            //       radius: 16,
+            //       child: Image.asset('asset/sp/a.jpg'),
+            //     ),
+            //     const Padding(padding: EdgeInsets.only(left: 10)),
+            //     CircleAvatar(
+            //       backgroundColor: Colors.white,
+            //       radius: 16,
+            //       child: Image.asset('asset/sp/b.png'),
+            //     ),
+            //     const Padding(padding: EdgeInsets.only(left: 10)),
+            //     CircleAvatar(
+            //       backgroundColor: Colors.white,
+            //       radius: 16,
+            //       child: Image.asset('asset/sp/c.png'),
+            //     )
+            //   ],
+            // ),
+ 
             SizedBox(
               height: screenHeight * 0.02,
             ),

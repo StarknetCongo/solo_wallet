@@ -26,10 +26,6 @@ class _Home_PageState extends State<Home_Page> {
     );
     return Scaffold(
       appBar: AppBar(
-        // leading: IconButton(
-        //   icon: const Icon(Icons.person),
-        //   onPressed: () {},
-        // ),
         actions: [
           IconButton(
             onPressed: () {},
@@ -86,13 +82,13 @@ class _Home_PageState extends State<Home_Page> {
                   child: Padding(
                     padding: const EdgeInsets.only(left: 10),
                     child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        // Text(
-                        //   'Hey Zlatan ibile',
-                        //   style: TitreStyleWhite,
-                        // ),
+                        Text(
+                          'Hey Zlatan ibile',
+                          style: TitreStyleWhite,
+                        ),
                         Text(
                           'Offline balance',
                           style: TitreStyleWhite,
