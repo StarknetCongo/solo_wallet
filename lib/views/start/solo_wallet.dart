@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:solo_wallet/solo_wallet/pages/home_page/home_page.dart';
 
 class SoloApp extends StatelessWidget {
   const SoloApp({super.key});
@@ -13,8 +12,7 @@ class SoloApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey),
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'SoloWallet'),
+      home: SplashScreen(),
     );
   }
 }
-
