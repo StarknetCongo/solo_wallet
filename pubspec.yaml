@@ -36,6 +36,11 @@ dev_dependencies:
 
 
 flutter:
+  generate: true
+
+  assets: 
+    - assets/fonts/
+    - assets/icons/
 
 
   uses-material-design: true
