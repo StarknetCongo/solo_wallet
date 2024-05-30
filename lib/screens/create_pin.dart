@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
-import 'package:solo_wallet/components/CustomSaveButton.dart';
 import 'package:solo_wallet/constants/style.dart';
 import 'package:solo_wallet/screens/navigationButton_bar.dart';
-import 'package:solo_wallet/screens/restore_account.dart';
 import 'package:solo_wallet/widgets/customTextField.dart';
 
 // ignore: camel_case_types
@@ -26,10 +23,7 @@ class _Create_pinState extends State<Create_pin> {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Text(
-                'Solo wallet',
-                style: TitreStyle,
-              ),
+              TitleApp,
               Image.asset(
                   height: MediaQuery.of(context).size.height * 0.2,
                   width: 600,

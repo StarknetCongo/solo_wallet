@@ -19,10 +19,7 @@ class _Restore_an_accountState extends State<Restore_an_account> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
-              'Solo wallet',
-              style: TitreStyle,
-            ),
+            TitleApp,
             Image.asset(
                 height: MediaQuery.of(context).size.height * 0.2,
                 width: 600,

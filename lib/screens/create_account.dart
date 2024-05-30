@@ -35,10 +35,7 @@ class _Create_accountState extends State<Create_account> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text(
-            'Solo Wallet',
-            style: TitreStyle,
-          ),
+          TitleApp,
           const Text('Copy this seed phrase'),
           Padding(
               padding: const EdgeInsets.all(8.0),
