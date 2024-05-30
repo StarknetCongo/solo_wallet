@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:solo_wallet/constants/style.dart';
 import 'package:solo_wallet/screens/create_confirm_pin.dart';
-import 'package:solo_wallet/widgets/customTextField.dart';
 
 class Restore_an_account extends StatefulWidget {
   const Restore_an_account({super.key});
