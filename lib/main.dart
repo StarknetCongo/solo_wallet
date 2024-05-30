@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Solo Wallet',
       theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Google'),
-      home: Loading(),
+      home: const Loading(),
     );
   }
 }

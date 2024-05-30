@@ -39,7 +39,7 @@ dependencies:
   equatable: ^2.0.3
   google_fonts : 
   animated_text_kit: any
-  qr_flutter : any
+  qr_flutter :  
 
 dev_dependencies:
   flutter_test:
