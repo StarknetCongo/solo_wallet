@@ -1,27 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
-import 'package:solo_wallet/components/CustomSaveButton.dart';
 import 'package:solo_wallet/constants/style.dart';
 import 'package:solo_wallet/screens/navigationButton_bar.dart';
-import 'package:solo_wallet/screens/restore_account.dart';
 import 'package:solo_wallet/widgets/customTextField.dart';
 
-// ignore: camel_case_types
-class Create_pin extends StatefulWidget {
-  const Create_pin({super.key});
+class create_confirm_pin extends StatefulWidget {
+  const create_confirm_pin({super.key});
 
   @override
-  State<Create_pin> createState() => _Create_pinState();
+  State<create_confirm_pin> createState() => _create_confirm_pinState();
 }
 
-// ignore: camel_case_types
-class _Create_pinState extends State<Create_pin> {
+class _create_confirm_pinState extends State<create_confirm_pin> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.only(top: 70),
+          padding: const EdgeInsets.only(top: 120),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -57,12 +52,7 @@ class _Create_pinState extends State<Create_pin> {
                     icon: Icons.key,
                     isName: true,
                   ),
-                  CustomTextField(
-                    textHint: "Add you pseudo name ",
-                    controller: null,
-                    icon: Icons.person,
-                    isName: true,
-                  ),
+
                   // CustomSaveButton(
                   //   text: 'Save',
                   // ),
@@ -94,7 +84,7 @@ class _Create_pinState extends State<Create_pin> {
                         );
                       },
                       child: Text(
-                        'Save',
+                        'SAVE PIN',
                         style: TitreStyleWhite,
                       ),
                     ),

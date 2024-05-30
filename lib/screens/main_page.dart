@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:solo_wallet/constants/style.dart';
+import 'package:solo_wallet/screens/create_account.dart';
 import 'package:solo_wallet/screens/create_pin.dart';
 import 'package:solo_wallet/screens/navigationButton_bar.dart';
+import 'package:solo_wallet/screens/restore_account.dart';
 
 // ignore: camel_case_types
 class Main_page extends StatefulWidget {
@@ -10,6 +12,7 @@ class Main_page extends StatefulWidget {
   @override
   State<Main_page> createState() => _Main_pageState();
 }
+
 // ignore: camel_case_types
 class _Main_pageState extends State<Main_page> {
   @override
@@ -34,7 +37,7 @@ class _Main_pageState extends State<Main_page> {
                   backgroundColor: CouleurPrincipale, // Text color
                   shadowColor: Colors.deepPurpleAccent, // Shadow color
                   elevation: 10, // Elevation
-                  padding:  const EdgeInsets.symmetric(
+                  padding: const EdgeInsets.symmetric(
                       horizontal: 70, vertical: 15), // Padding
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10), // Rounded corners
@@ -44,13 +47,17 @@ class _Main_pageState extends State<Main_page> {
                     fontWeight: FontWeight.bold, // Text weight
                   ),
                 ),
-                   onPressed: () {
+                onPressed: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                        builder: (context) => const Create_pin()),
+                      builder: (context) => const Create_account(),
+                    ),
                   );
                 },
-                child:  Text('Create a new account',style: TitreStyleWhite,),
+                child: Text(
+                  'Create a new account',
+                  style: TitreStyleWhite,
+                ),
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 30),
@@ -72,9 +79,16 @@ class _Main_pageState extends State<Main_page> {
                     ),
                   ),
                   onPressed: () {
-                    // Handle button press
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => const Restore_an_account(),
+                      ),
+                    );
                   },
-                  child:  Text('Restore an existing account',style: TitreStyleWhite,),
+                  child: Text(
+                    'Restore an existing account',
+                    style: TitreStyleWhite,
+                  ),
                 ),
               ),
               TextButton(
