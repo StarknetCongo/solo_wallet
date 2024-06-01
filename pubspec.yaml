@@ -42,6 +42,19 @@ flutter:
     - assets/fonts/
     - assets/icons/
 
+  fonts: 
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/Inter/Inter-Black.ttf
+        - asset: assets/fonts/Inter/Inter-Bold.ttf
+        - asset: assets/fonts/Inter/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter/Inter-ExtraLight.ttf
+        - asset: assets/fonts/Inter/Inter-Light.ttf
+        - asset: assets/fonts/Inter/Inter-Medium.ttf    
+        - asset: assets/fonts/Inter/Inter-Regular.ttf    
+        - asset: assets/fonts/Inter/Inter-SemiBold.ttf    
+        - asset: assets/fonts/Inter/Inter-Thin.ttf    
+
 
   uses-material-design: true
 

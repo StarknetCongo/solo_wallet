@@ -104,6 +104,7 @@ class AppStyle {
       brightness: Brightness.dark,
       primaryColor: PRIMERYCOLOR,
       unselectedWidgetColor: Colors.transparent,
+      fontFamily: "Inter",
     );
   }
 
@@ -156,6 +157,7 @@ class AppStyle {
           height: 1.5,
         ),
       ),
+      fontFamily: "Inter",
       useMaterial3: true,
       brightness: Brightness.light,
       primaryColor: PRIMERYCOLOR,
