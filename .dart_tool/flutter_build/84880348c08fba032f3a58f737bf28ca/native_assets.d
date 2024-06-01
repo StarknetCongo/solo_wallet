@@ -1,0 +1,1 @@
+ /Users/baruka99/Desktop/PRIVATE/DEVELOPPEMENT/PROJECTS/EXTERNE/solowalet/solo_wallet/.dart_tool/flutter_build/84880348c08fba032f3a58f737bf28ca/native_assets.yaml: 

@@ -10,9 +10,17 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SafeArea(
-        child: SizedBox.shrink(),
+        child: Center(
+          child: Text(
+            "Solo wallet",
+            style: TextStyle(
+              fontSize: Theme.of(context).textTheme.displayLarge?.fontSize,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
       ),
     );
   }
