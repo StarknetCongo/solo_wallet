@@ -7,7 +7,6 @@ import 'package:solo_wallet/views/start/solo_wallet.dart';
 
 Future<void> main() async {
   AppPref.prefs = await SharedPreferences.getInstance();
-
   runApp(
     ChangeNotifierProvider<AppSetting>(
       create: (context) => AppSetting(),
